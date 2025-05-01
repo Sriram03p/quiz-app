@@ -1,52 +1,39 @@
-# Quiz Master App
+# Quiz Master App 📚
 
-A Flutter-based quiz application with local/online questions and leaderboard functionality.
+A feature-rich Flutter quiz application with multiple question sources and leaderboard functionality.
 
-## Features
-- Multiple question sources (Local & API)
-- Leaderboard with SQLite storage
-- State management with Provider
-- Clean UI with custom widgets
-- Comprehensive testing
+## Features ✨
+- **Dual Question Sources**: Local storage and API integration
+- **Leaderboard**: Persistent score tracking using SQLite
+- **State Management**: Efficient data flow with Provider
+- **Custom UI**: Clean, responsive interface with reusable widgets
+- **Comprehensive Testing**: Unit, widget, and integration tests
 
-## Tech Stack
-- **Framework**: Flutter
-- **State Management**: Provider
-- **Local Storage**: sqflite, shared_preferences
-- **Networking**: http
-- **Testing**: flutter_test
+## Tech Stack 🛠️
+| Category          | Technology           |
+|-------------------|----------------------|
+| Framework         | Flutter              |
+| Language          | Dart                 |
+| State Management  | Provider             |
+| Local Storage     | sqflite, shared_preferences |
+| Networking        | http                 |
+| Testing           | flutter_test         |
 
-## Installation
+## Installation 💻
+### Prerequisites
+- Flutter SDK (version 3.13 or higher)
+- Dart (version 3.1 or higher)
+
+### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sriram03p/quiz-master.git 
-Install dependencies:
+   git clone https://github.com/sriram03p/quiz-master.git
+   cd quiz-master
 
-bash
-flutter pub get
-Run the app:
+2. Install dependencies:
+   ```bash
+   flutter pub get
 
-bash
-flutter run
-Project Structure
-lib/
-├── main.dart
-├── models/
-├── providers/
-├── screens/
-├── services/
-├── utils/
-└── widgets/
-Dependencies
-yaml
-dependencies:
-provider: ^6.0.5
-http: ^0.13.5
-sqflite: ^2.2.0
-shared_preferences: ^2.2.0
-Team Workflow
-UI Developer: Widgets, Navigation, Theming
-
-Logic Developer: State, APIs, Database
-
-Collaboration: Feature branches → Code review → Merge
+3. Run the application:
+   ```bash
+   flutter run
