@@ -1,16 +1,52 @@
-# quiz_ap
+# Quiz Master App
 
-A new Flutter project.
+A Flutter-based quiz application with local/online questions and leaderboard functionality.
 
-## Getting Started
+## Features
+- Multiple question sources (Local & API)
+- Leaderboard with SQLite storage
+- State management with Provider
+- Clean UI with custom widgets
+- Comprehensive testing
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Framework**: Flutter
+- **State Management**: Provider
+- **Local Storage**: sqflite, shared_preferences
+- **Networking**: http
+- **Testing**: flutter_test
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sriram03p/quiz-master.git 
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+flutter pub get
+Run the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+flutter run
+Project Structure
+lib/
+├── main.dart
+├── models/
+├── providers/
+├── screens/
+├── services/
+├── utils/
+└── widgets/
+Dependencies
+yaml
+dependencies:
+provider: ^6.0.5
+http: ^0.13.5
+sqflite: ^2.2.0
+shared_preferences: ^2.2.0
+Team Workflow
+UI Developer: Widgets, Navigation, Theming
+
+Logic Developer: State, APIs, Database
+
+Collaboration: Feature branches → Code review → Merge
